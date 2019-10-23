@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="minContainer">
+            <table class="row" id="game">
+                <tr>
+                    <td id="li1" class="td row1 col1 dia0" onClick="mark(this)"></td>
+                    <td id="li2" class="td row1 col2" onClick="mark(this)"></td>
+                    <td id="li3" class="td row1 col3 dia1" onClick="mark(this)"></td>
+                </tr>
+                <tr>
+                    <td id="li4" class="td row2 col1" onClick="mark(this)"></td>
+                    <td id="li5" class="td row2 col2 dia0 dia1" onClick="mark(this)"></td>
+                    <td id="li6" class="td row2 col3" onClick="mark(this)"></td>
+                </tr>
+                <tr>
+                    <td id="li7" class="td row3 col1 dia1" onClick="mark(this)"></td>
+                    <td id="li8" class="td row3 col2" onClick="mark(this)"></td>
+                    <td id="li9" class="td row3 col3 dia0" onClick="mark(this)"></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
